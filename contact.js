@@ -6,7 +6,7 @@ $(function () {
 
     $('#contact-form').validator();
 
-
+    
     // when the form is submitted
     $('#contact-form').on('submit', function (e) {
 
@@ -14,9 +14,6 @@ $(function () {
         if (!e.isDefaultPrevented()) {
             var url = "https://script.google.com/macros/s/AKfycbwkDOHY_zJYVv3Ir2mKXHlZvrLz_SuhnXAu99E9me-cuP9AznmR/exec";
             // var url = "https://script.google.com/macros/s/AKfycbzt2DvyuDfGyy_F5baqaPCf_jldsKFBYw36XfzY3eRB/dev";
-
-
-            // var data = $(this).
 
             // POST values in the background the the script URL
             $.ajax({
@@ -30,11 +27,13 @@ $(function () {
                 success: function (data)
                 {
 
-                    console.log(JSON.parse(data));
+                    data = JSON.parse(data);
+                    console.log(data);
+                    alert(data.message);
                     // data = JSON object that contact.php returns
 
                     // we recieve the type of the message: success x danger and apply it to the 
-                    var messageAlert = 'alert-' + data.type;
+                    var messageAlert = 'alert-success';
                     var messageText = data.message;
 
                     // let's compose Bootstrap alert box HTML
