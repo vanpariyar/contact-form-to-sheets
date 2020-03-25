@@ -12,7 +12,7 @@ $(function () {
 
         // if the validator does not prevent form submit
         if (!e.isDefaultPrevented()) {
-            var url = secrets.SCRIPT_URL;
+            var url = "https://script.google.com/macros/s/AKfycbwkDOHY_zJYVv3Ir2mKXHlZvrLz_SuhnXAu99E9me-cuP9AznmR/exec";
             // var url = "https://script.google.com/macros/s/AKfycbzt2DvyuDfGyy_F5baqaPCf_jldsKFBYw36XfzY3eRB/dev";
 
 
