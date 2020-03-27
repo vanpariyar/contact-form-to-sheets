@@ -1,15 +1,15 @@
 # contact-form-to-sheets
 :wave: Hiii,
 
-The small application that send your static contact form data to the Google Sheets With Email notification. 
+The small application that sends your static contact form data to the Google Sheets With Email notification. 
 
 You find this cool :ok_hand:. (We can build with no Time just Follow Tutorial).
 
-NOTE: Email Notification is in development (You also can contribute by making new branch).
+NOTE: Email Notification is in development (You also can contribute by making a new branch).
 
 DEMO: https://vanpariyar.github.io/contact-form-to-sheets
 
-To see The your response.
+To see your response.
 https://docs.google.com/spreadsheets/d/1lFgkCv0I1ZnV6bPcGoBMB9w2KWx8FZZ6-hfiDgN6cFU/edit?usp=sharing
 
 
@@ -31,37 +31,37 @@ Goto Tools > ScriptEditor.
 
 ![Screenshot from 2020-03-27 20-31-02](https://user-images.githubusercontent.com/26689210/77770956-0de34b00-706c-11ea-8e7f-1e3633c8f03c.png)
 
-### In Newly opend window
+### In the Newly opened window
 Change as per your requirement.
 Publish > Deploy As app.
 ![Screenshot from 2020-03-27 20-31-55](https://user-images.githubusercontent.com/26689210/77770978-176cb300-706c-11ea-8532-fd209743a761.png)
 
-### In Newly opend window
+### In Newly opened window
 Set settings as shown.
-- Annonymus is required.
-- Run as me required to use in your website.
+- Anonymous is required.
+- Run as me required to use on your website.
 
 Copy This retrived URL.
 ![Screenshot from 2020-03-27 20-32-36](https://user-images.githubusercontent.com/26689210/77771069-3a976280-706c-11ea-92a2-6bf4444ed96f.png)
 
-publish the script as web app.
+publish the script as a web app.
 
-### NOTE: IF it is ask for the authorization goto advance > then continue to unsafe Then copy SCRIPT Url:
-:sweat_smile: Not any harm full code but Google not allow any code without your confirmation.
+### NOTE: IF it is asking for the authorization goto advance > then continue to unsafe Then copy SCRIPT Url:
+:sweat_smile: Not any harm full code but Google does not allow any code without your confirmation.
 You can review my code if you feel uncomfortable it's fine.
 
 Now where to put this URL :thinking:
 
-Answer is put in ` Contact.js `
+The answer is put in ` Contact.js `
 
-set url variable in -> 
+set URL variable in -> 
 ```javascript
 var url = yourScriptUrl
 ```
-This is kind a API endpoint u can use CURL, ajax , Fetch to this url.
+This is kind an API endpoint u can use CURL, ajax, Fetch to this URL.
 
-IT is safe because it redirect it's output to onother URL. You will find after some experience.
+IT is safe because it redirects it's output to another URL. You will find after some experience.
 
-I will share the referace.
+I will share the reference.
 
 https://developers.google.com/apps-script/reference/spreadsheet
