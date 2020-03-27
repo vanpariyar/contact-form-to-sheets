@@ -46,6 +46,22 @@ Copy This retrived URL.
 
 publish the script as web app.
 
-set Option as the annonymus.
+### NOTE: IF it is ask for the authorization goto advance > then continue to unsafe Then copy SCRIPT Url:
+:sweat_smile: Not any harm full code but Google not allow any code without your confirmation.
+You can review my code if you feel uncomfortable it's fine.
 
-copy URL of script. Put on the contact.js url:
+Now where to put this URL :thinking:
+
+Answer is put in ` Contact.js `
+
+set url variable in -> 
+```javascript
+var url = yourScriptUrl
+```
+This is kind a API endpoint u can use CURL, ajax , Fetch to this url.
+
+IT is safe because it redirect it's output to onother URL. You will find after some experience.
+
+I will share the referace.
+
+https://developers.google.com/apps-script/reference/spreadsheet
